@@ -21,9 +21,7 @@ chmod +x RoboticsTestDemo.x86_64
 
 A window will open showing a simple scene containing a cube:
 
-![cube](img/cube.png)
-
-
+<img src="img/cube.png" width="300"/>
 
 ## 2. Setting Up the ROS2 Workspace
 Open a second terminal (`Ctrl + Alt + T`), navigate to the robotics_ws folder, and install the `ROS_TCP_Endpoint` package:
@@ -53,4 +51,5 @@ ros2 launch pose_test test.launch.py
 
 If everything is configured correctly, the cube in the Unity window will begin floating and rotating:
 
-![rotating_cube](img/rotating_cube.gif)
+<img src="img/rotating_cube.gif" width="300"/>
+
